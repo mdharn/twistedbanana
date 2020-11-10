@@ -1,0 +1,35 @@
+
+.container {
+	background-image: linear-gradient(#FFFF25, #F57200, #C24747);
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Verdana, Geneva, sans-serif;
+	color: navy;
+	background-color: ;
+}
+.nav-item {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 2.0em;
+}
+
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+}
+footer {
+	background-color: #c24747;
+	height: 100px;
+	width: auto;
+}
+footer>p {
+	text-align: right;
+	font-size: 2.0em;
+}
+footer>h6 {
+	font-size: .5em;
+	text-align: center;
+
+}

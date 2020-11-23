@@ -1,5 +1,5 @@
 
-.container {
+.col {
 	background-image: linear-gradient(#FFFF25, #F57200, #C24747);
 	margin-right: auto;
 	margin-left: auto;
@@ -9,7 +9,7 @@
 }
 .nav-item {
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 2.0em;
+	font-size: 1.0em;
 }
 
 .img-fluid {
@@ -18,6 +18,12 @@
   margin-right: auto;
   margin-bottom: auto;
   width: 50%;
+}
+.col-8 > .img-fluid
+{
+	flex-wrap: all;
+	
+	width: 100%;
 }
 footer {
 	background-color: #c24747;

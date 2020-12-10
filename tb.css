@@ -1,15 +1,23 @@
+  
+  
+header {
+	max-width:100% ;
+	height: auto;
+	align-items: center;
+}
 
 .col {
 	background-image: linear-gradient(#FFFF25, #F57200, #C24747);
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Verdana, Geneva, sans-serif;
+	max-width: 100%;
+	height: auto;
+	font-family: Comic Sans MS;
 	color: navy;
 	background-color: ;
 }
 .nav-item {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 1.0em;
+	font-family: Comic Sans MS;
+	color: navy;
+	font-size: 2.0em;
 }
 
 .img-fluid {
@@ -25,17 +33,23 @@
 	
 	width: 100%;
 }
+.card-body {
+	font-family: Comic Sans MS;
+	color: #c24747;
+}
 footer {
 	background-color: #c24747;
-	height: 100px;
-	width: auto;
+	max-width: 100%;
+	color: navy;
 }
 footer>p {
 	text-align: right;
 	font-size: 2.0em;
+	font-family: Comic Sans MS;
 }
 footer>h6 {
 	font-size: .5em;
 	text-align: center;
+
 
 }
